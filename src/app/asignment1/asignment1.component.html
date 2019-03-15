@@ -1,0 +1,7 @@
+<hr>
+<h4>asignment 1</h4>
+<div>
+  <input type="text" [(ngModel)]="username" (input)="setUsername()" placeholder="username">
+  <input type="button" value="Clear" [disabled]="disabled" (click)="clearUsername()">
+</div>
+<p>{{username}}</p>
